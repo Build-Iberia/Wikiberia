@@ -1,1 +1,1 @@
-Raise your building's walls to the correct height.
+Use WorldEdit to raise your building's walls up until you reach its correct final height.

@@ -1,1 +1,1 @@
-Create and set up your claim on the Build The Earth map.
+Learn how to properly create and configure your claim on the official Build The Earth website.

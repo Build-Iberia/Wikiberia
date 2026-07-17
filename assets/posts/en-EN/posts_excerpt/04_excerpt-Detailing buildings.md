@@ -1,1 +1,1 @@
-Add textures and details to bring your building to life.
+Add textures, windows, doors and balconies to bring your finished building to life and realism.
