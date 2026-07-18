@@ -1,0 +1,64 @@
+{
+  "version": 8,
+  "backups": [
+    {
+      "name": "Outlining buildings (English)",
+      "messages": [
+        {
+          "data": {
+            "flags": 32768,
+            "components": [
+              {
+                "type": 17,
+                "accent_color": 3447003,
+                "components": [
+                  {
+                    "type": 10,
+                    "content": "### ℹ️ Before you start:\nWe strongly recommend using the **WorldEdit CUI** mod so that you can see the selections you’re making."
+                  }
+                ]
+              },
+              {
+                "type": 14,
+                "spacing": 2
+              },
+              {
+                "type": 10,
+                "content": "# Mark the building’s corners:\n1. Open Google Maps and search for the building’s location.\n2. Open the menu in the bottom left-hand corner. Switch to satellite view (realistic image mode) and globe view.\n"
+              },
+              {
+                "type": 17,
+                "accent_color": 15277667,
+                "components": [
+                  {
+                    "type": 10,
+                    "content": "⚠️ Make sure that buildings are actually displayed in 3D once you have enabled the globe view."
+                  }
+                ]
+              },
+              {
+                "type": 10,
+                "content": "3. Move the cursor to the top-left corner of the building.\n4. Right-click. A dialogue box will appear. Click on the first option (a number will appear). The coordinates will be copied to the clipboard in latitude and longitude format.\n5. On the Minecraft server, open the chat and type the following command: `/tpll <coords>`. Where it says <coords>, press Ctrl + V to paste the coordinates you copied earlier. You will be teleported to the exact coordinates on the server.\n6. Mark the location with a block of your choice. The most common method is to use different coloured wool to mark out various outlines (buildings, pavements, streets, trees, etc.).\n7. Return to Google Maps and move the cursor to another corner of the building, then repeat the same process for the remaining corners of the building."
+              },
+              {
+                "type": 14,
+                "spacing": 2
+              },
+              {
+                "type": 10,
+                "content": "# Connecting the building’s vertices\n1. In Minecraft, using the wooden axe (use `//wand` if you don’t have the axe, or take it from your creative inventory), type the command `//sel cuboid` to select the cuboid selection.\n2. Left-click on one of the corners you’ve placed with wool and right-click on another one that you’ve marked, which must be adjacent to the previous one.\n3. Type the command `//line <block>`. In <block>, you must type the name of the block you want to use to create the building’s outline. For example, we’ll be using light blue wool, so we’ll type `//line light_blue_wool`. This way, WorldEdit will create a line of light blue wool matching one of the facades of the building we want to create.\n4. Repeat this process for each of the sides that make up the building until you have a closed outline."
+              }
+            ]
+          },
+          "thread_id": "1527332232417771651"
+        }
+      ],
+      "targets": [
+        {
+          "type": 1,
+          "url": "https://discord.com/api/webhooks/1521190795024142366/IxaJ4hI74ipIc4jEWmPN6qjlowguGOz9EfXKG441bBa3_aEiqH7ITMc7CrQecjL5mjWI"
+        }
+      ]
+    }
+  ]
+}
