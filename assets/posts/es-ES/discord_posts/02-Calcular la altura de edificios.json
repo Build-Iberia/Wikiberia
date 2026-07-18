@@ -1,0 +1,43 @@
+{
+  "version": 8,
+  "backups": [
+    {
+      "name": "Calcular la altura de edificios",
+      "messages": [
+        {
+          "data": {
+            "flags": 32768,
+            "components": [
+              {
+                "type": 10,
+                "content": "## Con Google Earth Pro\nEn aquellas zonas donde hay modelo 3D del terreno, puedes emplear Google Earth Pro para obtener las alturas.\n\n`VIDEO WEBP 1`\n\n### a) Diferencia de elevaciones\n1. Abre Google Earth Pro y busca la ubicación del edificio que quieres medir la altura.\n2. Sitúa el cursor en la parte inferior del edificio, a nivel del suelo (acera).\n3. En la parte inferior derecha aparece la altura sobre el nivel del mar de ese punto (se muestra como **“elev.”**). Anótala para después.\n4. Mueve el cursor a la parte superior del edificio y vuelve a anotar la altura sobre el nivel del mar.\n5. Resta la altura de la parte inferior a la de la parte superior para obtener la altura total del edificio.\n\n### b) Con la heramienta de la regla\n\n1. En la parte superior de la pantalla, selecciona el icono de la regla.\n2. Selecciona la opción **“Ruta 3D”**.\n3. Asegúrate de que la unidad de medida esté en metros.\n4. Haz click izquierdo en los dos puntos entre los que quieres saber la distancia para obtener la medida.\n\n"
+              },
+              {
+                "type": 17,
+                "accent_color": 15277667,
+                "spoiler": false,
+                "components": [
+                  {
+                    "type": 10,
+                    "content": "⚠️ Intenta hacer la línea lo más recta posible, ya que si se desvía, la distancia medida será mayor a la real."
+                  }
+                ]
+              },
+              {
+                "type": 10,
+                "content": "5. Recuerda borrar la medida anterior antes de volver a realizar una nueva.\n\n## Con Google Maps\nEn el caso de que la zona que estás construyendo no disponga de modelo 3D, podemos emplear una extensión de Google Maps desarrollada por Build The Earth (descargar de **[aquí](https://discord.com/channels/690908396404080650/1270280302178205758)**)\n\n`VIDEO WEBP 2`\n\n1. Abre Google Maps y busca la ubicación del edificio que quieres medir la altura.\n2. Entra en la vista Street View (vista 360º) en frente del edificio.\n3. En la parte superior derecha, despliega el menú de la extensión.\n4. Aparecerá una cruceta roja en el centro de la pantalla. Sitúa la cruceta en la parte más baja del edificio que quieres medir.\n5. En la parte derecha, en el menú de la extensión, presiona el botón **`Point 1`** para marcar la posición inferior del edificio.\n6. Desplaza la cámara hacia la parte superior del mismo edificio tratando de seguir la verticalidad del edificio y presiona el botón **`Point 2`** y marca la casilla **`Height(m)`**.\n7. En el campo debajo de Height(m) aparecerá la altura del edificio. Ya que sale en decimales, necesitarás hacer aproximaciones. Recomendamos redondear hacia arriba a partir de 0,65."
+              }
+            ]
+          },
+          "thread_id": "1527061186896465925"
+        }
+      ],
+      "targets": [
+        {
+          "type": 1,
+          "url": "https://discord.com/api/webhooks/1521190795024142366/IxaJ4hI74ipIc4jEWmPN6qjlowguGOz9EfXKG441bBa3_aEiqH7ITMc7CrQecjL5mjWI"
+        }
+      ]
+    }
+  ]
+}
