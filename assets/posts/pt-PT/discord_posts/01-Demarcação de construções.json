@@ -1,0 +1,64 @@
+{
+  "version": 8,
+  "backups": [
+    {
+      "name": "Demarcação de construções (Português)",
+      "messages": [
+        {
+          "data": {
+            "flags": 32768,
+            "components": [
+              {
+                "type": 17,
+                "accent_color": 3447003,
+                "components": [
+                  {
+                    "type": 10,
+                    "content": "### ℹ️ Antes de começar:\nÉ altamente recomendável utilizar o mod **WorldEdit CUI** para poder visualizar as seleções que irá fazer."
+                  }
+                ]
+              },
+              {
+                "type": 14,
+                "spacing": 2
+              },
+              {
+                "type": 10,
+                "content": "# Marcar os vértices do edifício:\n1. Abre o Google Maps e procura a localização do edifício.\n2. Abre o menu no canto inferior esquerdo. Ativa a vista de satélite (modo de imagem realista) e a vista de globo.\n"
+              },
+              {
+                "type": 17,
+                "accent_color": 15277667,
+                "components": [
+                  {
+                    "type": 10,
+                    "content": "⚠️ Certifica-te de que, depois de ativares a vista em globo, os edifícios sejam visíveis em 3D."
+                  }
+                ]
+              },
+              {
+                "type": 10,
+                "content": "3. Coloca o cursor no primeiro canto do edifício.\n4. Clica com o botão direito do rato. Aparecerá uma caixa de diálogo. Clica na primeira opção (aparece uma numeração). As coordenadas serão copiadas para a área de transferência no formato de latitude e longitude.\n5. No servidor do Minecraft, abre o chat e escreve o seguinte comando: `/tpll <coords>`. No lugar de <coords>, pressiona Ctrl + V para colar as coordenadas que copiaste anteriormente. Serás teletransportado para as coordenadas exatas no servidor.\n6. Marque a localização com um bloco à sua escolha. O mais comum é usar lãs de cores diferentes para definir contornos distintos (edifícios, passeios, ruas, árvores, etc.).\n7. Volte ao Google Maps, aproxime o cursor de outro dos cantos do edifício e repita a mesma operação com os restantes cantos do edifício."
+              },
+              {
+                "type": 14,
+                "spacing": 2
+              },
+              {
+                "type": 10,
+                "content": "# Unir os vértices do edifício\n1. No Minecraft, com o machado de madeira (usa `//wand` se não tiveres o machado ou retira-o do inventário criativo), escreve o comando `//sel cuboid` para selecionar a seleção cuboidal.\n2. Clica com o botão esquerdo num dos cantos que colocaste com lã e clica com o botão direito noutro dos que marcaste, que seja consecutivo ao anterior.\n3. Digita o comando `//line <bloco>`. Em <bloco>, deves escrever o nome do bloco com o qual pretendes criar o contorno do edifício. Por exemplo, vamos usar lã azul-clara, pelo que escreveremos `//line light_blue_wool`. Desta forma, o WorldEdit criará uma linha com lã azul-clara que coincide com uma das fachadas do edifício que pretendemos construir.\n4. Repete esta operação com cada um dos lados que compõem o edifício até obteres um contorno fechado."
+              }
+            ]
+          },
+          "thread_id": "1527440097493123233"
+        }
+      ],
+      "targets": [
+        {
+          "type": 1,
+          "url": "https://discord.com/api/webhooks/1521190795024142366/IxaJ4hI74ipIc4jEWmPN6qjlowguGOz9EfXKG441bBa3_aEiqH7ITMc7CrQecjL5mjWI"
+        }
+      ]
+    }
+  ]
+}
